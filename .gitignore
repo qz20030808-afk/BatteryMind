@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environments and secrets
+.venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Raw/processed data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Generated reports
+reports/*
+!reports/.gitkeep
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
