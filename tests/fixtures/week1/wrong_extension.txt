@@ -1,0 +1,2 @@
+battery_id,cycle,capacity
+B001,1,2.00
