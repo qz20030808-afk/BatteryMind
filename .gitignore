@@ -1,6 +1,11 @@
 # Python cache
 __pycache__/
 *.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+*.egg-info/
 
 # Environments and secrets
 .venv/
@@ -9,6 +14,10 @@ __pycache__/
 # IDE
 .vscode/
 .idea/
+
+# Local Codex/OMX learning memory (not project source)
+omx_wiki/
+.omx/
 
 # Raw/processed data
 data/raw/*
