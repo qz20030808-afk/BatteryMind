@@ -1,0 +1,22 @@
+[
+  {
+    "id": "capacity-fade",
+    "text": "电池容量衰减表示可用容量随循环或日历时间下降，SOH 常用当前容量与额定容量的比值描述。",
+    "source": "BatteryMind 教学知识库/容量衰减"
+  },
+  {
+    "id": "temperature",
+    "text": "高温可能加速副反应和老化，低温会暂时降低可用容量并增加充电风险。温度分析需要结合电池体系与工况。",
+    "source": "BatteryMind 教学知识库/温度"
+  },
+  {
+    "id": "cycle",
+    "text": "循环数据通常包含 cycle、capacity、voltage 和 temperature 等字段，异常顺序或缺失字段应在建模前检查。",
+    "source": "BatteryMind 教学知识库/循环数据"
+  },
+  {
+    "id": "resistance",
+    "text": "内阻上升可能与电池老化相关，但单一指标不能独立完成可靠诊断。",
+    "source": "BatteryMind 教学知识库/内阻"
+  }
+]

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "batterymind"
+version = "0.2.0"
+description = "A testable battery-domain Agentic RAG project"
+requires-python = ">=3.11"
+dependencies = [
+  "openai==3.3.1",
+  "pandas==3.0.5",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
